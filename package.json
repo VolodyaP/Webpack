@@ -1,0 +1,33 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/core-js": "^0.9.46",
+    "@types/jquery": "^3.3.0",
+    "@types/node": "^9.4.0",
+    "awesome-typescript-loader": "^3.4.1",
+    "css-loader": "^0.28.9",
+    "html-webpack-plugin": "^2.30.1",
+    "jquery": "^3.3.1",
+    "style-loader": "^0.20.1",
+    "tslint": "^5.9.1",
+    "typescript": "^2.6.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-watch-server": "^1.2.1"
+  },
+  "dev": "webpack-watch-server",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "tslint-loader": "^3.5.3"
+  }
+}
